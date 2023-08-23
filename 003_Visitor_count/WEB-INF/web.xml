@@ -1,0 +1,11 @@
+<web-app>
+    <servlet>
+        <servlet-name>Demo</servlet-name>
+        <!-- it .class file name -->
+        <servlet-class>visitor</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Demo</servlet-name>
+        <url-pattern>/*</url-pattern>
+    </servlet-mapping>
+</web-app>
